@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/login-Website/images/background.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card{
+    width: 90%;
+    max-width: 440px;
+    color: white;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 225, 0.3);
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30 rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+
+}
+
+.card img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.card h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;color: black;
+}
+
+.card p{
+    font-size: 15px;
+    margin: 10px auto;
+    color: rgb(17, 10, 10);
+    max-width: 330px;
+    font-weight: bold;
+}
+
+.card .links img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px auto;
+    transition: background 0.5s;
+}
+
+.card .links img:hover{
+    background: rgb(38, 168, 219);
+}
+
+.card .btn{
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    color: #fdfdfd;
+    background: rgb(38, 168, 219);
+    font-weight: bolder;
+     padding: 10px 30px;
+      border-radius: 30px;
+      margin: 30px 0 10px;
+}
+
